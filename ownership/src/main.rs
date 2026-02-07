@@ -45,6 +45,11 @@ fn main() {
      * 戻り値とスコープ
      */
     return_and_scope();
+
+    /*
+     * タプル
+     */
+    tuple();
 }
 
 fn takes_ownership(some_string: String){
@@ -71,5 +76,21 @@ fn gives_ownership() -> String {
 
 fn takes_and_gives_back(a_string: String) -> String {
     a_string
+}
+
+/*
+ * タプル
+ */
+fn tuple(){
+    let s1 = String::from("hello");
+    let (s2, len) = calculate_length(s1);
+
+    // '{}'の長さは、{}です
+    println!("The length of '{}' is {}.", s2, len);
+}
+
+fn calculate_length(s: String) -> (String, usize){
+    let length = s.len();
+    (s, length)
 }
 
