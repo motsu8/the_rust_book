@@ -21,5 +21,31 @@ fn main() {
     // シャローコピーっぽいが、元の変数は使えないので、Rustではムーブと表現している。
     // シャローコピーは元の変数もそのまま使用できる。
     // println!("{}, world!", s1);
+    
+    /*
+     * ディープコピー
+     */
+    // これはヒープがコピーされる
+    let s2 = _s2.clone();
+    println!("s1 = {}, s2 = {}", _s2, s2);
+    
+
+    /*
+     * 所有権と関数
+     */
+    let ss = String::from("hello"); // ssがスコープに入る
+    takes_ownership(ss); // ssの値が関数にムーブされるので、これ以降は使えない
+    // println!("{}", ss);
+    
+    let x = 5; // xがスコープに入る
+    makes_copy(x); // xも関数にムーブされるが、i32はCopyなので、この後にxを使っても大丈夫
+    println!("{}", x);
 }
 
+fn takes_ownership(some_string: String){
+    println!("{}", some_string);
+}
+
+fn makes_copy(some_integer: i32){
+    println!("{}", some_integer);
+}
