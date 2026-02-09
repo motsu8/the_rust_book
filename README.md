@@ -8,4 +8,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~4.1. 所有権について](https://doc.rust-jp.rs/book-ja/ch04-01-what-is-ownership.html) 
 
-:runner: [~4.2. 参照と借用](https://doc.rust-jp.rs/book-ja/ch04-02-references-and-borrowing.html)
+:white_check_mark: [~4.2. 参照と借用](https://doc.rust-jp.rs/book-ja/ch04-02-references-and-borrowing.html)
+
+:runner: [~4.3. スライス型](https://doc.rust-jp.rs/book-ja/ch04-03-slices.html)
