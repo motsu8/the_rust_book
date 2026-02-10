@@ -10,4 +10,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~4.2. 参照と借用](https://doc.rust-jp.rs/book-ja/ch04-02-references-and-borrowing.html)
 
-:runner: [~4.3. スライス型](https://doc.rust-jp.rs/book-ja/ch04-03-slices.html)
+:white_check_mark: [~4.3. スライス型](https://doc.rust-jp.rs/book-ja/ch04-03-slices.html)
+
+:runner: [5.1. 構造体のインスタンス化](https://doc.rust-jp.rs/book-ja/ch05-01-defining-structs.html)
