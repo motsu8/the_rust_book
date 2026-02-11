@@ -16,6 +16,13 @@ impl Rectangle {
     fn can_hold(&self, other: &Rectangle) -> bool {
         self.width > other.width && self.height > other.height
     }
+
+    fn square(size: u32) -> Self {
+        Self {
+            width: size,
+            height: size,
+        }
+    }
 }
 
 fn main() {
@@ -37,5 +44,8 @@ fn main() {
 
     println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
     println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect3));
+
+    let rect4 = Rectangle::square(40);
+    println!("これは関連関数から生成されたRectangle {:#?}", rect4)
 }
 
