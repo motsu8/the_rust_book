@@ -8,9 +8,16 @@
 //     address: String,
 // }
 
+// enum IpAddr {
+//     V4(u8, u8, u8, u8),
+//     V6(String),
+// }
+
+struct Ipv4Addr {} 
+struct Ipv6Addr {} 
 enum IpAddr {
-    V4(u8, u8, u8, u8),
-    V6(String),
+    V4(Ipv4Addr),
+    V6(Ipv6Addr),
 }
 
 fn main() {
@@ -29,8 +36,8 @@ fn main() {
     //     address: String::from("::1"),
     // };
 
-    let home = IpAddr::V4(127, 0, 0, 1);
-    let loopback = IpAddr::V6(String::from("::1"));
+    // let home = IpAddr::V4(127, 0, 0, 1);
+    // let loopback = IpAddr::V6(String::from("::1"));
 }
 
 // fn route(ip_kind: IpAddrKind) {}
