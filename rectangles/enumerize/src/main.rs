@@ -34,6 +34,11 @@ impl Message {
     }
 }
 
+enum MyOption<T> {
+    None,
+    Some(T),
+}
+
 fn main() {
     // let four = IpAddrKind::V4;
     // let six = IpAddrKind::V6;
@@ -55,6 +60,15 @@ fn main() {
     
     let m = Message::Write(String::from("hello"));
     m.call();
+
+    let some_number = Some(5);
+    let some_char = Some('e');
+    let absent_number: MyOption<i32> = MyOption::None;
+
+    // i8 + Option<i8> をしようとしているので、コンパイルーラーになる
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+    let sum = x + y;
 }
 
 // fn route(ip_kind: IpAddrKind) {}
