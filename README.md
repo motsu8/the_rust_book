@@ -12,4 +12,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~4.3. スライス型](https://doc.rust-jp.rs/book-ja/ch04-03-slices.html)
 
-:runner: [5.1. 構造体のインスタンス化](https://doc.rust-jp.rs/book-ja/ch05-01-defining-structs.html)
+:white_check_mark: [~6.3 if letで簡潔な制御フロー](https://doc.rust-jp.rs/book-ja/ch06-03-if-let.html)
+
+:runner: [~7 パッケージ、クレート、モジュール](https://doc.rust-jp.rs/book-ja/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
