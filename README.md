@@ -14,4 +14,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~6.3 if letで簡潔な制御フロー](https://doc.rust-jp.rs/book-ja/ch06-03-if-let.html)
 
-:runner: [~7 パッケージ、クレート、モジュール](https://doc.rust-jp.rs/book-ja/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+:white_check_mark: [~7 パッケージ、クレート、モジュール](https://doc.rust-jp.rs/book-ja/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+
+:runner: [~8 一般的なコレクション](https://doc.rust-jp.rs/book-ja/ch08-00-common-collections.html)
