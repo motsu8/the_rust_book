@@ -16,4 +16,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~7 パッケージ、クレート、モジュール](https://doc.rust-jp.rs/book-ja/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
 
-:runner: [~8 一般的なコレクション](https://doc.rust-jp.rs/book-ja/ch08-00-common-collections.html)
+:white_check_mark: [8.1 ベクタで値のリストを保持する](https://doc.rust-jp.rs/book-ja/ch08-01-vectors.html)
+
+:runner: [~8.2 文字列でUTF-8でエンコードされたテキストを保持する](https://doc.rust-jp.rs/book-ja/ch08-02-strings.html)
