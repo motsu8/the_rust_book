@@ -20,4 +20,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~8.2 文字列でUTF-8でエンコードされたテキストを保持する](https://doc.rust-jp.rs/book-ja/ch08-02-strings.html)
 
-:runner: [~8.3 キーとそれに紐づいた値をハッシュマップに格納する](https://doc.rust-jp.rs/book-ja/ch08-03-hash-maps.html)
+:white_check_mark: [~8.3 キーとそれに紐づいた値をハッシュマップに格納する](https://doc.rust-jp.rs/book-ja/ch08-03-hash-maps.html)
+
+:runner: [~9 エラー処理](https://doc.rust-jp.rs/book-ja/ch09-00-error-handling.html)
