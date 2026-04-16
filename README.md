@@ -22,4 +22,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~8.3 キーとそれに紐づいた値をハッシュマップに格納する](https://doc.rust-jp.rs/book-ja/ch08-03-hash-maps.html)
 
-:runner: [~9 エラー処理](https://doc.rust-jp.rs/book-ja/ch09-00-error-handling.html)
+:white_check_mark: [~9.1 panic!で回復不能なエラー](https://doc.rust-jp.rs/book-ja/ch09-01-unrecoverable-errors-with-panic.html)
+
+:runner: [~9.2 panic!で回復可能なエラー](https://doc.rust-jp.rs/book-ja/ch09-02-recoverable-errors-with-result.html)
