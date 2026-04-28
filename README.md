@@ -24,4 +24,6 @@ https://doc.rust-jp.rs/book-ja/title-page.html
 
 :white_check_mark: [~9.1 panic!で回復不能なエラー](https://doc.rust-jp.rs/book-ja/ch09-01-unrecoverable-errors-with-panic.html)
 
-:runner: [~9.2 panic!で回復可能なエラー](https://doc.rust-jp.rs/book-ja/ch09-02-recoverable-errors-with-result.html)
+:white_check_mark: [~9.3 panic!すべきかするまいか](https://doc.rust-jp.rs/book-ja/ch09-02-recoverable-errors-with-result.html)
+
+:runner: [~10 ジェネリック型、トレイト、ライフタイム](https://doc.rust-jp.rs/book-ja/ch10-00-generics.html)
